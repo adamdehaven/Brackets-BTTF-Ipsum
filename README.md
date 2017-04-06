@@ -8,7 +8,7 @@ To install this extension, use the built-in Brackets [Extension Manager][Bracket
 Use the menu entry `Edit > Insert BTTF Ipsum`, or one the keyboard shortcut `Ctrl-Shift-B` (Windows/Linux), `Cmd-Shift-B` (Mac), or define your own.
 
 ## License
-Brackets "BACK TO THE FUTURE" Ipsum is licensed under the [MIT license][LICENSE]. 
+Brackets "BACK TO THE FUTURE" Ipsum is licensed under the [MIT license][MIT]. 
 "BACK TO THE FUTURE." Written by. Robert Zemeckis & Bob Gale.
 
 [Brackets]: http://brackets.io
