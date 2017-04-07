@@ -4,6 +4,10 @@
   height: 24px;
 }
 
+#adamdehaven-bttf-ipsum-icon:hover {
+  cursor: pointer;
+}
+
 #adamdehaven-bttf-ipsum-icon:active {
   background-position: 0 -24px !important;
 }
