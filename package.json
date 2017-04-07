@@ -3,7 +3,7 @@
   "title": "Back to the Future Ipsum",
   "description": "Insert placeholder text from the 'Back to the Future' trilogy.",
   "homepage": "https://github.com/adamdehaven/Brackets-BTTF-Ipsum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Adam DeHaven <adam@dehaven.org> (http://adamdehaven.com)",
   "license": "MIT",
   "engines": {

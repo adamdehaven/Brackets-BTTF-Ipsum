@@ -23,7 +23,6 @@ define(function(require, exports, module) {
         .attr('title', 'Insert BTTF Ipsum')
         .on('click', function(e) {
           e.preventDefault();
-          TOOLBAR_BTN.toggleClass('active');
           handlePlaceholderRequest();
         }).appendTo($('#main-toolbar .buttons'));
   
@@ -69,7 +68,6 @@ define(function(require, exports, module) {
         success: function(scriptText) {
           var theText = generateText(scriptText);
           editor.document.replaceRange(theText, insertionPos);
-          TOOLBAR_BTN.toggleClass('active');
         }
       });
     }
