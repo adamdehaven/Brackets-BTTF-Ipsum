@@ -1,8 +1,11 @@
 # Brackets "BACK TO THE FUTURE" Ipsum
-[Brackets][Brackets] Extension inserts random paragraphs of placeholder text from the "BACK TO THE FUTURE" trilogy.
+[Brackets][Brackets] Extension inserts paragraphs of placeholder text from the "BACK TO THE FUTURE" trilogy.
 
 ## Installation
 To install this extension, use the built-in Brackets [Extension Manager][Brackets Extension Manager] which downloads the extension from the [extension registry][Brackets Extension Registry].
+
+Alternatively, click the [Extension Manager][Brackets Extension Manager] icon, then click `Install from URL...` and paste:
+`https://github.com/adamdehaven/Brackets-BTTF-Ipsum/archive/master.zip`.
 
 ## Usage
 Use the menu entry `Edit > Insert BTTF Ipsum`, or one the keyboard shortcut `Ctrl-Shift-B` (Windows/Linux), `Cmd-Shift-B` (Mac), or define your own.

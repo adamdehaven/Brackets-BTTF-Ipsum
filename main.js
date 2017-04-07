@@ -5,7 +5,7 @@ define(function(require, exports, module) {
       EditorManager = brackets.getModule('editor/EditorManager'),
       Menus = brackets.getModule('command/Menus'),
       ExtensionUtils = brackets.getModule('utils/ExtensionUtils'),
-      SCRIPT_URL = ExtensionUtils.getModuleUrl(module) + 'lib/script.txt',
+      SCRIPT_URL = ExtensionUtils.getModuleUrl(module) + 'src/script.txt',
       KEY_BINDINGS = [
         {
           key: 'Ctrl-Shift-B',
@@ -16,7 +16,18 @@ define(function(require, exports, module) {
         }, {
           key: 'Ctrl-Shift-B'
         }
-      ];
+      ],
+      TOOLBAR_BTN = $(document.createElement('a'))
+        .attr('id', 'adamdehaven-bttf-ipsum-icon')
+        .attr('href', '#')
+        .attr('title', 'Insert BTTF Ipsum')
+        .on('click', function(e) {
+          e.preventDefault();
+          TOOLBAR_BTN.toggleClass('active');
+          handlePlaceholderRequest();
+        }).appendTo($('#main-toolbar .buttons'));
+  
+  ExtensionUtils.loadStyleSheet(module, 'src/styles.css');
 
   // Generates random int between min and max
   function randNum(min, max) {
@@ -58,6 +69,7 @@ define(function(require, exports, module) {
         success: function(scriptText) {
           var theText = generateText(scriptText);
           editor.document.replaceRange(theText, insertionPos);
+          TOOLBAR_BTN.toggleClass('active');
         }
       });
     }

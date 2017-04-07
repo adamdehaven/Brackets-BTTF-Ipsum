@@ -1,0 +1,18 @@
+#adamdehaven-bttf-ipsum-icon {
+  background-image: url(flux-capacitor-sprite.svg);
+  width: 24px;
+  height: 24px;
+}
+
+#adamdehaven-bttf-ipsum-icon:active,
+#adamdehaven-bttf-ipsum-icon.active {
+  background-position: 0 -24px !important;
+}
+
+#adamdehaven-bttf-ipsum-icon .cls-1 {
+  fill: #bbb;
+}
+
+#adamdehaven-bttf-ipsum-icon .cls-1 {
+  fill: #78b2f2;
+}
